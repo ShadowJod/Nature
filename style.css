@@ -151,9 +151,59 @@ body {
 #about #about-content {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
+  padding: 4rem 8rem;
+}
+#about #about-content #top {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+#about #about-content #top p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#about #about-content #top h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 30rem;
+  opacity: 0.7;
+}
+#about #about-content p {
+  width: 25rem;
 }
 #about #about-content button {
   width: -moz-fit-content;
   width: fit-content;
+  padding: 1rem 1.5rem;
+  border: none;
+  outline: none;
+  background-color: var(--secondary);
+}
+
+#footer {
+  height: auto;
+  width: 100%;
+}
+#footer img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  padding: 1rem 8rem;
+  justify-content: space-between;
+}
+footer ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: var(--primary);
 }/*# sourceMappingURL=style.css.map */

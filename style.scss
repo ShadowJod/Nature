@@ -167,27 +167,68 @@ body {
   #about-content {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
+    padding: 4rem 8rem;
 
-    p{
+    #top{
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      p{
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
+      h1{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 30rem;
+        opacity: 0.7;
+      }
     }
 
-    h1{
-
-    }
-
     p{
-
+      width: 25rem;
     }
 
     button{
         width: fit-content;
+        padding: 1rem 1.5rem;
+        border: none;
+        outline: none;
+        background-color: var(--secondary);
     }
     
   }
-  #about-image {
-    
-    
+
+}
+
+#footer{
+  height: auto;
+  width: 100%;
+  
+  img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
+}
+
+
+footer{
+  display: flex;
+  padding: 1rem 8rem;
+  justify-content: space-between;
+
+  ul{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    li{
+      list-style: none;
+      a{
+        text-decoration: none;
+        color:var(--primary);
+      }
+    }
+  }
+
 }
